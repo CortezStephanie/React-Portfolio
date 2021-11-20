@@ -1,8 +1,9 @@
-import React from 'react';
-//import Navbar from './component/Navbar';
+import React, {useState}  from 'react';
+import Navbar from './Navbar';
 //import Footer from './components/Footer';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import './styles/Header.css';
 
 export default function Header () {
     const [currentPage, setCurrentPage] = useState('About');
@@ -12,12 +13,6 @@ export default function Header () {
       if (currentPage === 'About') {
         return <About />;
       }
-      if (currentPage === '') {
-        return <Contact />;
-      }
-      if (currentPage === 'Blog') {
-        return <Blog />;
-      }
       return <Contact />;
     };
   
@@ -26,7 +21,8 @@ export default function Header () {
 
     return (
         <div>
-            {/*<Navbar/>*/}
+            <Navbar currentPage={currentPage} handlePageChange={handlePageChange}/>
+            {renderPage()}
         </div>
     );
 }
