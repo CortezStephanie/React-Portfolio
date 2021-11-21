@@ -1,8 +1,10 @@
 import React, {useState}  from 'react';
 import Navbar from './Navbar';
-//import Footer from './components/Footer';
+import Footer from './Footer';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Projects from './pages/Projects';
+import Resume from './pages/Resume';
 import './styles/Header.css';
 
 export default function Header () {
@@ -12,6 +14,12 @@ export default function Header () {
     const renderPage = () => {
       if (currentPage === 'About') {
         return <About />;
+      }
+      if (currentPage === 'Projects') {
+        return <Projects />;
+      }
+      if (currentPage === 'Resume') {
+        return <Resume />;
       }
       return <Contact />;
     };
@@ -23,6 +31,8 @@ export default function Header () {
         <div>
             <Navbar currentPage={currentPage} handlePageChange={handlePageChange}/>
             {renderPage()}
+            
+            <Footer/>
         </div>
     );
 }

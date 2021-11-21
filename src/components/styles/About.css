@@ -1,3 +1,11 @@
-.title {
+
+#aboutContent {
+    
+    background: lightblue;
+    height: 50vh;
+    margin-top: 1rem;
+}
+#aboutTitle {
+    font-size: 4rem;
     color:blue;
 }
