@@ -1,4 +1,4 @@
-root {
+:root {
     --lightblue:#1EB7D9;
     --purple:#532273;
     --magenta:#BF2C8C;
@@ -8,5 +8,5 @@ root {
 }
 
 body {
-    background:pink;
+    background-color: var(--purple);
 }

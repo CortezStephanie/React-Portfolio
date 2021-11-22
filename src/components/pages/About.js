@@ -14,7 +14,7 @@ function About () {
             nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
             tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
             quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
-            <img src="./images/me.jpg" id="mepic"/>
+            <img src="/images/me.jpg" id="mepic"/>
             </section>
         </div>
     )

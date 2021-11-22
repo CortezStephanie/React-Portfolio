@@ -1,3 +1,8 @@
 #contactTitle {
     font-size: 4rem;
 }
+
+#formstuff {
+    display: flex;
+    flex-direction: column;
+}
