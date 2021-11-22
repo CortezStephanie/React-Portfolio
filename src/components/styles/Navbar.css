@@ -22,7 +22,7 @@
     background: pink;
     border: 10px double palevioletred;
     border-radius: 25px 25px 25px 25px;
-    box-shadow: 5px 5px purple;
+    box-shadow: 5px 5px 3px purple;
     display:flex;
     font-size: 3rem;
     height: fit-content;
