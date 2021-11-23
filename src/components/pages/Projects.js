@@ -6,6 +6,7 @@ export default function Projects () {
         <div>
             <h1 id="projectTitle">Projects</h1>
             <div className="card">
+                <img src="./images" alt="sweepers project"/>
                 <h2>Sweepers</h2>
                 <p>A chore chart for room mates and famiilies</p>
                 <button id="GitHub">GitHub</button>

@@ -11,32 +11,34 @@ export default function Header () {
     const projectOne = {
       name: 'Dynamite Recipes',
       descripton: 'Find recipes with what you have on hand application',
+      image: '',
       id: 1,
     };
     const projectTwo = {
       name: 'Dynamite Recipes',
       descripton: 'Find recipes with what you have on hand application',
-      id: 1,
+      image:'',
+      id: 2,
     };
     const projectThree = {
       name: 'Dynamite Recipes',
       descripton: 'Find recipes with what you have on hand application',
-      id: 1,
+      id: 3,
     };
     const projectFour = {
       name: 'Dynamite Recipes',
       descripton: 'Find recipes with what you have on hand application',
-      id: 1,
+      id: 4,
     };
     const projectFive = {
       name: 'Dynamite Recipes',
       descripton: 'Find recipes with what you have on hand application',
-      id: 1,
+      id: 5,
     };
     const projectSix = {
       name: 'Dynamite Recipes',
       descripton: 'Find recipes with what you have on hand application',
-      id: 1,
+      id: 6,
     };
 
 
