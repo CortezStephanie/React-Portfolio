@@ -1,17 +1,17 @@
 import React from 'react'
 import '../styles/Projects.css'
 
-export default function Projects () {
+export default function Projects ({project}) {
     return(
         <div>
-            <h1 id="projectTitle">Projects</h1>
             <div className="card">
-                <img src="./images" alt="sweepers project"/>
-                <h2>Sweepers</h2>
-                <p>A chore chart for room mates and famiilies</p>
+                <img src={project.image} alt="Dynamtie Recipes Project picture"/>
+                <h2>{project.name}</h2>
+                <p></p>
                 <button id="GitHub">GitHub</button>
             </div>
         </div>
        
     )
 }
+

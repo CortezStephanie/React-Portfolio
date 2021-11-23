@@ -8,39 +8,17 @@ import Resume from './pages/Resume';
 import './styles/Header.css';
 
 export default function Header () {
-    const projectOne = {
-      name: 'Dynamite Recipes',
-      descripton: 'Find recipes with what you have on hand application',
-      image: '',
-      id: 1,
-    };
-    const projectTwo = {
-      name: 'Dynamite Recipes',
-      descripton: 'Find recipes with what you have on hand application',
-      image:'',
-      id: 2,
-    };
-    const projectThree = {
-      name: 'Dynamite Recipes',
-      descripton: 'Find recipes with what you have on hand application',
-      id: 3,
-    };
-    const projectFour = {
-      name: 'Dynamite Recipes',
-      descripton: 'Find recipes with what you have on hand application',
-      id: 4,
-    };
-    const projectFive = {
-      name: 'Dynamite Recipes',
-      descripton: 'Find recipes with what you have on hand application',
-      id: 5,
-    };
-    const projectSix = {
-      name: 'Dynamite Recipes',
-      descripton: 'Find recipes with what you have on hand application',
-      id: 6,
-    };
-
+  const projectOne = {
+    name: 'Dynamite Recipes',
+    descripton: 'Find recipes with what you have on hand application',
+    image: '../../images/dynamite.png',
+    githubURL: '',
+  };
+  const projectTwo = {
+    name: 'Sweepers',
+    descripton: 'Find recipes with what you have on hand application',
+    image:'',
+  };
 
     const [currentPage, setCurrentPage] = useState('About');
 
@@ -50,7 +28,17 @@ export default function Header () {
         return <About />;
       }
       if (currentPage === 'Projects') {
-        return <Projects />;
+        return (
+        <div>
+          <h1 id="projectTitle">Projects</h1>
+        <Projects project={projectOne}/>
+        <Projects project={projectOne}/>
+        <Projects project={projectOne}/>
+        <Projects project={projectOne}/>
+        <Projects project={projectOne}/>
+        <Projects project={projectOne}/>
+        </div>
+        )
       }
       if (currentPage === 'Resume') {
         return <Resume />;

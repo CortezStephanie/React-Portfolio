@@ -22,7 +22,7 @@
     background: pink;
     border: 10px double palevioletred;
     border-radius: 25px 25px 25px 25px;
-    box-shadow: 5px 5px 3px purple;
+    box-shadow: 5px 5px 3px #1EB7D9;
     display:flex;
     font-size: 3rem;
     height: fit-content;
@@ -46,6 +46,7 @@
         text-decoration: none;
         font-weight: 10em;
         padding:2rem 1rem 0 1rem;
+        
 }
 
 #aboutlink {
@@ -54,4 +55,6 @@
     background: pink;
     font-size: 20px;
     width: 50px;
+    text-decoration: none;
+    box-shadow: 5px 5px 3px #1EB7D9;
 }
