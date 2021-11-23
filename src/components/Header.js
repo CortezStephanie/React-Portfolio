@@ -8,6 +8,38 @@ import Resume from './pages/Resume';
 import './styles/Header.css';
 
 export default function Header () {
+    const projectOne = {
+      name: 'Dynamite Recipes',
+      descripton: 'Find recipes with what you have on hand application',
+      id: 1,
+    };
+    const projectTwo = {
+      name: 'Dynamite Recipes',
+      descripton: 'Find recipes with what you have on hand application',
+      id: 1,
+    };
+    const projectThree = {
+      name: 'Dynamite Recipes',
+      descripton: 'Find recipes with what you have on hand application',
+      id: 1,
+    };
+    const projectFour = {
+      name: 'Dynamite Recipes',
+      descripton: 'Find recipes with what you have on hand application',
+      id: 1,
+    };
+    const projectFive = {
+      name: 'Dynamite Recipes',
+      descripton: 'Find recipes with what you have on hand application',
+      id: 1,
+    };
+    const projectSix = {
+      name: 'Dynamite Recipes',
+      descripton: 'Find recipes with what you have on hand application',
+      id: 1,
+    };
+
+
     const [currentPage, setCurrentPage] = useState('About');
 
     // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.

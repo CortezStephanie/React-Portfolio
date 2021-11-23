@@ -3,8 +3,10 @@
 }
 
 .card {
+    display:flex;
     width: 90%;
     height: 30vh;
     box-shadow: 5px 5px 5px rgb(204, 0, 255);
     text-align: center;
+    justify-content: flex-end;
 }

@@ -10,7 +10,6 @@ export default function Projects () {
                 <p>A chore chart for room mates and famiilies</p>
                 <button id="GitHub">GitHub</button>
             </div>
-    
         </div>
        
     )
