@@ -14,6 +14,7 @@ function Contact () {
 
         if (inputType === 'email') {
             setEmail(inputValue);
+            console.log('i worked');
         }
     }
 
@@ -32,8 +33,8 @@ function Contact () {
             <h1 id="contactTitle">Contact Me</h1>
             <form id="formstuff">
                 <input placeholder="Full Name" className="inputs"></input>
-                <input value={email} onChange={handleInputChange} type="Email" placeholder="Email" className="inputs"></input>
-                <textarea label="Message" id="textA"></textarea>
+                <input value={email} type="email" onChange={handleInputChange} name="email"  placeholder="Email" className="inputs"></input>
+                <textarea placeholder="Message" id="textA"></textarea>
                 <button type="button" onClick={handleFormSubmit}>Submit</button>
             </form>
             {errorMessage && (
