@@ -5,7 +5,7 @@
     height: 30vh;
     width: 100%;
     margin-bottom: 2rem;
-    background-image: url("../../components/images/michael-dziedzic-qCyc_FSaKX0-unsplash.jpg");
+    background-image: url("../../components/images/katie-harp-6hAl08vFBFY-unsplash.jpg");
     background-size: cover;
     position: relative;
     /*
@@ -19,10 +19,9 @@
 
 #navName {
     text-align: center;
-    background: pink;
+    font-weight: bold;
     border: 10px double palevioletred;
     border-radius: 25px 25px 25px 25px;
-    box-shadow: 5px 5px 3px #1EB7D9;
     display:flex;
     font-size: 3rem;
     height: fit-content;
@@ -56,5 +55,4 @@
     font-size: 20px;
     width: 50px;
     text-decoration: none;
-    box-shadow: 5px 5px 3px #1EB7D9;
 }

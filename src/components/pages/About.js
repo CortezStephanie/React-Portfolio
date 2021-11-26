@@ -6,7 +6,8 @@ function About () {
     return (
         <div>
             <h1 id="aboutTitle">About Me</h1>
-            <section id="aboutContent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+            <section id="aboutContent">
+            <img src="/images/me.jpg" id="mepic"/> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
             molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
             numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
             optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
@@ -14,7 +15,7 @@ function About () {
             nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
             tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
             quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
-            <img src="/images/me.jpg" id="mepic"/>
+            
             </section>
         </div>
     )

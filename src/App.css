@@ -8,5 +8,7 @@
 }
 
 body {
-    background-color:rgb(204, 0, 255) ;
+    background-image: url('./components/images/—Pngtree—golden\ triangle\ vintage\ frames\ with_5333343.png') ;
+    background-size: cover;
+    width: 100%;
 }
