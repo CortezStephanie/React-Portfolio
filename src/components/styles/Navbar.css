@@ -20,7 +20,7 @@
 #navName {
     text-align: center;
     font-weight: bold;
-    border: 10px double palevioletred;
+    border: 10px double rgba(241, 224, 125, 0.959);
     border-radius: 25px 25px 25px 25px;
     display:flex;
     font-size: 3rem;
@@ -31,7 +31,8 @@
     margin-right:auto;
     margin-top: 2rem;
     padding-bottom: 1rem;
-    color:#1EB7D9; 
+    color:lightpink; 
+    -webkit-text-stroke: 1px rgb(116, 42, 100);
     font-family:'Poppins', sans-serif;
     position:relative;
 
@@ -49,8 +50,8 @@
 }
 
 #aboutlink {
-    border: 5px double palevioletred;
-    border-radius: 25px 25px 25px 25px;
+    border: 5px solid palevioletred;
+    border-radius: 25px 25px 0px 25px;
     background: pink;
     font-size: 20px;
     width: 50px;

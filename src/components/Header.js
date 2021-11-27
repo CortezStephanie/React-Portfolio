@@ -16,9 +16,15 @@ export default function Header () {
   };
   const projectTwo = {
     name: 'Sweepers',
-    descripton: 'Find recipes with what you have on hand application',
-    image:'',
+    descripton: '',
+    image:'../../images/sweeper.png',
   };
+  const projectThree = {
+    name: 'Note Taker',
+    descripton: '',
+    image:'../../images/notetaker.png',
+  };
+
 
     const [currentPage, setCurrentPage] = useState('About');
 
@@ -32,8 +38,8 @@ export default function Header () {
         <div>
           <h1 id="projectTitle">Projects</h1>
         <Projects project={projectOne}/>
-        <Projects project={projectOne}/>
-        <Projects project={projectOne}/>
+        <Projects project={projectTwo}/>
+        <Projects project={projectThree}/>
         <Projects project={projectOne}/>
         <Projects project={projectOne}/>
         <Projects project={projectOne}/>

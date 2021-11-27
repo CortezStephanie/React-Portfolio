@@ -10,6 +10,7 @@
 To install please `npm i` if your package json doesnt have a package lock. Then to display the project in the localhost `npm start`.
 ### Usage
 The default page you will be presented with is the about me page. On this page you can see a navbar with tabs to a contact page, resume, about me and my projects that I have completed. By clicking on which tab you want to view, then you are displayed that page. All of the links are active and will direct you to their url on a different tab. 
+
 ## License
 This repository is covered by the MIT License  <br> 
 https://opensource.org/licenses/MIT
