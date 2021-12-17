@@ -1,0 +1,13 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex: row;
+    width: 100%;
+}
+
+.footerLinks {
+    background: grey;
+    height: 10vh;
+    margin-top: 10rem;
+}

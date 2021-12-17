@@ -4,15 +4,15 @@
     padding: 3px 6px 3px 6px;
     height: 50vh;
     width: 100%;
-    box-shadow: 5px 5px 5px 5px lightpink;
+    /*box-shadow: 5px 5px 5px 5px lightpink;*/
     margin-top: 1rem 1rem 1rem 1rem;
-    background-color: rgba(72, 68, 73, 0.842);
+    /*background-color: rgba(72, 68, 73, 0.842);*/
     contain:content;
     
     
 }
 #aboutTitle {
-    font-family: 'Parisienne', cursive;
+    font-family:sans-serif;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -34,8 +34,8 @@
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    border: 10px double palevioletred;
-    background: pink;
+    border: 10px double gray;
+    /*background: pink;*/
     float: right;
     margin: 1px 1px 1px 1px;
 }

@@ -5,7 +5,7 @@
     height: 30vh;
     width: 100%;
     margin-bottom: 2rem;
-    background-image: url("../../components/images/katie-harp-6hAl08vFBFY-unsplash.jpg");
+    /*background-image: url("../images/katie-harp-6hAl08vFBFY-unsplash.jpg");*/
     background-size: cover;
     position: relative;
     /*
@@ -20,7 +20,7 @@
 #navName {
     text-align: center;
     font-weight: bold;
-    border: 10px double rgba(241, 224, 125, 0.959);
+    /*border: 10px double rgba(241, 224, 125, 0.959);*/
     border-radius: 25px 25px 25px 25px;
     display:flex;
     font-size: 3rem;
@@ -50,9 +50,9 @@
 }
 
 #aboutlink {
-    border: 5px solid palevioletred;
+    /*border: 5px solid palevioletred;
     border-radius: 25px 25px 0px 25px;
-    background: pink;
+    background: pink;*/
     font-size: 20px;
     width: 50px;
     text-decoration: none;
