@@ -4,6 +4,8 @@ footer {
     display: flex;
     flex: row;
     width: 100%;
+    contain:content;
+    margin-left: 160px;
 }
 
 .footerLinks {

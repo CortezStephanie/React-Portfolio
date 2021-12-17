@@ -10,8 +10,11 @@
     background-position: center;
     margin-top: 50px;
     margin-bottom:10px;
+    
 }
 
 #resumelink {
     color: red;
+    contain:content;
+    margin-left: 160px;
 }
