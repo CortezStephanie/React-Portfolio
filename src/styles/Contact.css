@@ -1,5 +1,4 @@
 #contactTitle {
-    font-family: 'Parisienne', cursive;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -16,6 +15,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-left: 180px;
 }
 
 #textA {

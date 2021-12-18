@@ -1,5 +1,4 @@
 #resumeTitle {
-    font-family: 'Parisienne', cursive;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -16,5 +15,5 @@
 #resumelink {
     /* color: red; */
     contain:content;
-    margin-left: 160px;
+    margin-left: 180px;
 }

@@ -5,6 +5,8 @@ function Navbar ({currentPage, handlePageChange}) {
    return (
       <div>
         <div class="sidenav">
+          <p id=''>Hi I'm Stephanie</p>
+          <img src="/images/me.jpg" alt="Stephanie" id="mepic"/>
           <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'about' ? 'nav-link active' : 'nav-link'}>About</a>
           <a href="#projects" onClick={() => handlePageChange('Projects')} className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}>Projects</a>
           <a href="#resume" onClick={() => handlePageChange('Resume')} className={currentPage === 'resume' ? 'nav-link active' : 'nav-link'}>Resume</a>
