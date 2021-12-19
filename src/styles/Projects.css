@@ -1,11 +1,14 @@
 .card {
     display:flex;
     flex-direction: column;
-    margin: 2em 5px 5px 5px;
-    width: 20vw;
-    height: 20vh;
+    width: 120px;
+    height: 120px;
     /*box-shadow: 5px 5px 5px lightpink;*/
     text-align: center;
     contain:content;
-    margin-left: 180px;
+    margin-left: 200px;
+}
+
+.cardContent {
+
 }

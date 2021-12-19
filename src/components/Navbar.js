@@ -2,15 +2,25 @@ import React from 'react';
 import '../styles/Navbar.css';
 
 function Navbar ({currentPage, handlePageChange}) {
+  
+  // function openNav() {
+  //   document.getElementById("mySidenav").style.width = "250px";
+  // }
+  
+  // function closeNav() {
+  //   document.getElementById("mySidenav").style.width = "0";
+
    return (
       <div>
-        <div class="sidenav">
+        <div className="sidenav" id='mySidenav'>
+        <a href="javascript:void(0)" className="closebtn" onclick="closeNav()">&times;</a>
           <p id=''>Hi I'm Stephanie</p>
           <img src="/images/me.jpg" alt="Stephanie" id="mepic"/>
           <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'about' ? 'nav-link active' : 'nav-link'}>About</a>
           <a href="#projects" onClick={() => handlePageChange('Projects')} className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}>Projects</a>
           <a href="#resume" onClick={() => handlePageChange('Resume')} className={currentPage === 'resume' ? 'nav-link active' : 'nav-link'}>Resume</a>
           <a href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === 'resume' ? 'nav-link active' : 'nav-link'}>Contact</a>
+          <span style={{fontSize:'30px', cursor:'pointer'}} onclick="openNav()">&#9776; open</span>
         </div>
       </div>
     //  <div className="navContent">

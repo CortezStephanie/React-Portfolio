@@ -4,12 +4,15 @@ import '../styles/Projects.css'
 export default function Projects ({project}) {
     return(
         <div>
-            <div className="card">
+            <li className="card">
                 <img src={project.image} alt="Dynamtie Recipes Project"/>
+                <div className='cardContent'>
                 <h2>{project.name}</h2>
                 <p></p>
                 <button id="GitHub">GitHub</button>
-            </div>
+                </div>
+            </li>
+            
         </div>
        
     )

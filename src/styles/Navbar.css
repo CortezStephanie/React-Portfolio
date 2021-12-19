@@ -59,7 +59,7 @@
 }*/
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 180px; /* Set the width of the sidebar */
+    width: 200px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -68,6 +68,8 @@
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
     text-align: center;
+    color:blue;
+    font-size: 50px;
 }
 
 .sidenav a {
@@ -82,12 +84,25 @@
     color: #f1f1f1;
 }
 
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
 #mepic{
     
     display: flex;
     flex-direction: column;
     /*align-items:center;*/
-    height: 140px;
+    height: 150px;
     width: 140px;
     border-radius: 50%;
     padding: 11px;
