@@ -9,20 +9,22 @@ import '../styles/Header.css';
 
 export default function Header () {
   const projectOne = {
-    name: 'Dynamite Recipes',
-    descripton: 'Find recipes with what you have on hand application',
     image: '../../images/dynamite.png',
-    githubURL: '',
+    name: 'Dynamite Recipes',
+    description: 'Find recipes with what you have on hand application',
+    githubURL: 'https://github.com/CortezStephanie',
   };
   const projectTwo = {
     name: 'Sweepers',
-    descripton: '',
     image:'../../images/sweeper.png',
+    description: 'Find recipes with what you have on hand application',
+    githubURL: 'https://github.com/CortezStephanie',
   };
   const projectThree = {
     name: 'Note Taker',
-    descripton: '',
     image:'../../images/notetaker.png',
+    description: 'Find recipes with what you have on hand application',
+    githubURL: 'https://github.com/CortezStephanie',
   };
 
 
@@ -35,14 +37,16 @@ export default function Header () {
       }
       if (currentPage === 'Projects') {
         return (
-        <div>
+        <div className='projects'>
           <h1 id="projectTitle">Projects</h1>
+        <div className='projectContainer'>  
         <Projects project={projectOne}/>
         <Projects project={projectTwo}/>
         <Projects project={projectThree}/>
         <Projects project={projectOne}/>
         <Projects project={projectOne}/>
-        <Projects project={projectOne}/>
+        <Projects project={projectOne}/> 
+        </div>
         </div>
         )
       }

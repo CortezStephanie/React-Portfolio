@@ -1,14 +1,29 @@
 .card {
     display:flex;
     flex-direction: column;
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 203px;
     /*box-shadow: 5px 5px 5px lightpink;*/
     text-align: center;
     contain:content;
-    margin-left: 200px;
+    /* margin-left: 200px; */
+    border: 2px solid blue;
+    overflow: hidden;
 }
 
 .cardContent {
+    border: 2px solid pink;
 
 }
+
+.projectContainer {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (max-width: 450px) {
+    .projects {margin:0%;}
+    .card {width: 100%; height: auto;}
+    .card img {width: 100%; height: auto;}
+} 
