@@ -1,0 +1,8 @@
+.picMe {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border-bottom: 2px solid navy;
+    padding-bottom: 3px;
+    float: right;
+}
