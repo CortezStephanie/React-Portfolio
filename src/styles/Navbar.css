@@ -1,16 +1,20 @@
 .navBar {
     display: flex;
     justify-content: center;
+    align-items: end;
+    /* to have fixed navbar 
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100%;*/
     background-color: rgb(28, 28, 87);
-    height: 15vh;
+    height: 50px;
 }
 
 .nav-link {
     color: rgb(207, 207, 207);
     text-decoration: none;
+    margin: 0 5px 0 5px;
+    
 }
 
 .nav-link:hover {
