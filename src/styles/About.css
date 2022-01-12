@@ -1,1 +1,11 @@
+.sectionTitle {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
 
+.aboutContent {
+    
+    font-size: 20px;
+}

@@ -39,7 +39,7 @@ export default function Header () {
       if (currentPage === 'Projects') {
         return (
         <div className='projects'>
-          <h1 id="projectTitle">Projects</h1>
+          <h1 className="sectionTitle">Projects</h1>
         <div className='projectContainer'>  
         <Projects project={projectOne}/>
         <Projects project={projectTwo}/>

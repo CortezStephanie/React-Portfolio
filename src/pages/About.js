@@ -5,23 +5,17 @@ import '../styles/About.css'
 function About () {
     return (
         <div>
-            <h1 id="aboutTitle">About Me</h1>
-            <section id="aboutContent">
+            <h1 className="sectionTitle">About Me</h1>
+            <section className="aboutContent">
             <p>
-            Front-end web developer leveraging psychology background to build a more intuitive user
-            experience on the web. Recently earned a certificate in full stack development from the
-            University Coding, with newly developed skills in JavaScript, CSS, React.js, and responsive web
-            design. Known as an innovative problem solver passionate about developing apps, with a focus
-            on mobile-first design and development. With each project, my aim is to best engage my
-            audience for an impactful user experience. I applied aspects of UX and agile development in a
-            recent project. I worked on a team of four to develop a single-page MERN app that helps local
-            business owners track their sales, inventory, and attendance at specialty events. I’m excited to
-            leverage my skills as part of a fast-paced, quality-driven team to build better experiences on the web.
+            Recent Full-Stack developer graduate from the University of Texas Austin, Full-Stack bootcamp. 
+            Certified in JavaScript, CSS, React.js, MERN stack, and responsive web design. My technical knowledge of 
+            cutting-edge web technologies, together with my problem-solving skills and dedication, make me a valuable 
+            member of any engineering team. I enjoy tackling programming problems from a variety of perspectives and 
+            cooperating with others. With my most recent project I worked on a team of 5 to develop a single-page MERN 
+            workbook that helps students learn to code. I am excited to immerse myself in this industry over the coming 
+            years as I continue to grow in this fast-paced world of development. 
             </p>
-            <a href="https://github.com/CortezStephanie" target="_blank" rel="noreferrer" >
-            <i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/feed/" target="_blank" rel="noreferrer"  >
-            <i class="fab fa-linkedin"></i></a>
             </section>
         </div>
     )

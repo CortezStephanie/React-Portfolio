@@ -14,9 +14,10 @@
     color: rgb(207, 207, 207);
     text-decoration: none;
     margin: 0 5px 0 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     
 }
 
 .nav-link:hover {
-    color:rgb(160, 200, 245);
+    color:rgb(245, 173, 160);
 }

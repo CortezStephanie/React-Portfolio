@@ -30,7 +30,7 @@ function Contact () {
     }
     return (
         <div className='Container'>
-            <h1 id="contactTitle">Contact Me</h1>
+            <h1 className="sectionTitle">Contact Me</h1>
             <form id="formstuff">
                 <input placeholder="Full Name" className="inputs"></input>
                 <input value={email} type="email" onChange={handleInputChange} name="email"  placeholder="Email" className="inputs"></input>
