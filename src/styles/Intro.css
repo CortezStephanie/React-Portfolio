@@ -1,8 +1,23 @@
 .picMe {
-    height: 50px;
-    width: 50px;
-    border-radius: 25px;
-    border-bottom: 2px solid navy;
-    padding-bottom: 3px;
-    float: right;
+    height: 155px;
+    width: 152px;
+    border-radius: 75px;
+    border-bottom: 2px solid white;
+    padding-bottom: 6px;
+    margin-top: 15px;
+    /* float: right; */
+
+}
+
+.intro {
+    background-color: navy;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin: 45px 20px 0 0;
 }
