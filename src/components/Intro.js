@@ -15,7 +15,9 @@ export default function Intro () {
                 </a>
               </figcaption>
               <img src='/images/me.jpg' alt='Image of Stephanie' className='picMe'></img>
+              <div className='curve'></div>
             </figure>
+            
         </>
     )
 }
