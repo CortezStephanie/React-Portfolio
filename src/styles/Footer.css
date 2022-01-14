@@ -1,15 +1,14 @@
-/* footer {
-    position: fixed;
+footer {
+    /* position: fixed; */
     bottom: 0;
     display: flex;
     flex: row;
     width: 100%;
     contain:content;
-    margin-left: 160px;
+    background-color: rgb(28, 28, 87);
 }
 
 .footerLinks {
-    background: grey;
     height: 10vh;
     margin-top: 10rem;
-} */
+} 
