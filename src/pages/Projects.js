@@ -8,11 +8,11 @@ export default function Projects ({project}) {
                 <h2 className='projectName'>{project.name}</h2>
                 <img src={project.image} alt="project name" className='projectImage'/>
                 <div className='cardContent'>
-                    <p>{project.description}</p>
-                    <a href={project.githubURL} target="_blank" rel="noreferrer" >
+                    <p className='projectDescription'>{project.description}</p>
+                    <a href={project.githubURL} target="_blank" rel="noreferrer" className='cardIcons'>
                     <i className="fab fa-github"></i></a>
-                    <a href={project.deployment} target='_blank' rel='noreferrer'>
-                    <i class="fas fa-rocket"></i>
+                    <a href={project.deploymentURL} target='_blank' rel='noreferrer' className='cardIcons'>
+                    <i className="fas fa-rocket"></i>
                     </a>
                 </div>
             </li>

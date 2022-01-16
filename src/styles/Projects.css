@@ -22,9 +22,9 @@
     height: 218px;
 }
 
-.cardContent {
+.projectDescription {
     /* border: 2px solid pink;     */
-
+    margin-bottom: 8px;
 
 }
 
@@ -42,6 +42,15 @@
 
 .projectName {
     margin: 10px 0 10px 0;
+}
+
+.cardIcons {
+    margin: 0px 5px 0px 5px;
+    color: white;
+}
+
+.cardIcons:hover {
+    color: rgb(250, 102, 102);
 }
 
 @media screen and (max-width: 450px) {
