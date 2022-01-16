@@ -1,18 +1,30 @@
 .card {
     display:flex;
     flex-direction: column;
-    width: 200px;
-    height: 203px;
+    width: 210px;
+    height: 220px;
     /*box-shadow: 5px 5px 5px lightpink;*/
     text-align: center;
     contain:content;
     /* margin-left: 200px; */
-    border: 2px solid blue;
+    /* border: 2px solid rgb(28, 28, 87); */
+    background-color: rgb(28, 28, 87);
+    color: rgb(207, 207, 207);
     overflow: hidden;
+    box-shadow: 5px 5px 5px gray;
+    margin: 10px 10px 10px 10px;
+    border-radius: 15%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card:hover {
+    width: 215px;
+    height: 218px;
 }
 
 .cardContent {
-    border: 2px solid pink;
+    /* border: 2px solid pink;     */
+
 
 }
 
@@ -20,6 +32,16 @@
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.projectImage {
+    height: 100px;
+    margin-bottom: 5px;
+    /* margin-top: 12px; */
+}
+
+.projectName {
+    margin: 10px 0 10px 0;
 }
 
 @media screen and (max-width: 450px) {

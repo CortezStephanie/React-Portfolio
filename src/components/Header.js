@@ -14,6 +14,7 @@ export default function Header () {
     name: 'Dynamite Recipes',
     description: 'Find recipes with what you have on hand application',
     githubURL: 'https://github.com/CortezStephanie',
+    deploymentURL: ''
   };
   const projectTwo = {
     name: 'Sweepers',
@@ -40,14 +41,14 @@ export default function Header () {
         return (
         <div className='projects'>
           <h1 className="sectionTitle">Projects</h1>
-        <div className='projectContainer'>  
-        <Projects project={projectOne}/>
-        <Projects project={projectTwo}/>
-        <Projects project={projectThree}/>
-        <Projects project={projectOne}/>
-        <Projects project={projectOne}/>
-        <Projects project={projectOne}/> 
-        </div>
+            <div className='projectContainer'>  
+              <Projects project={projectOne}/>
+              <Projects project={projectTwo}/>
+              <Projects project={projectThree}/>
+              <Projects project={projectOne}/>
+              <Projects project={projectOne}/>
+              <Projects project={projectOne}/> 
+          </div>
         </div>
         )
       }
