@@ -10,6 +10,7 @@ function About () {
                 <figure>
                     <img src='/images/ben-kolde-FaPxZ88yZrw-unsplash.jpg' alt='unsplash photo' className='aboutPhoto'></img>
                 </figure>
+                <div className='aboutCard'>
                 <p>
                     Recent Full-Stack developer graduate from the University of Texas Austin, Full-Stack bootcamp. 
                     Certified in JavaScript, CSS, React.js, MERN stack, and responsive web design. My technical knowledge of 
@@ -19,6 +20,7 @@ function About () {
                     workbook that helps students learn to code. I am excited to immerse myself in this industry over the coming 
                     years as I continue to grow in this fast-paced world of development. 
                 </p>
+                </div>
             </section>
         </div>
     )
