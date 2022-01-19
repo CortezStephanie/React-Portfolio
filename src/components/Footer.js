@@ -5,7 +5,7 @@ function Footer() {
     return (
         <>
           <footer className="footerLinks"> 
-            
+            <div>contact:scortez@gmail.com</div>
           </footer>
         </>
     )

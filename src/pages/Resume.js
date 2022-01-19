@@ -7,7 +7,26 @@ export default function Resume () {
     return (
         <div>
             <h1 className="sectionTitle">Resume</h1>
-            <a href="/images/Resume.pdf" id="resumelink" target="_blank" rel="noopener">Click Here</a>
+            
+                <a href="/images/Resume.pdf" className="resumeLink" target="_blank" rel="noopener"><i className="far fa-file"></i>
+                Download Resume Here</a>
+            
+                <h2 className='cardTitle'>Frontend:</h2>
+                <ul className='resumeCard'>
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>React</li>
+                    <li>MUI</li>
+                </ul>
+                <h2 className='cardTitle'>Backend:</h2>
+                <ul className='resumeCard'>
+                    <li>MongoDB</li>
+                    <li>Express.js</li>
+                    <li>Node.js</li>
+                    <li>JavaScript</li>
+                </ul>
         </div>
+
     )
 } 
