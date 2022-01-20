@@ -29,7 +29,7 @@
     color: red;
 }
 
-/*
+
 .curve {
     position: absolute;
     height: 225px;
@@ -45,10 +45,10 @@
     width: 80%;
     height: 100%;
     background-color: rgb(28, 28, 87);
-    background-color: black;
+    /* background-color: black; */
     transform: translate(40%, 12%);
     z-index: -1;
-    box-shadow: 5px 5px 5px red;
+    /* box-shadow: 5px 5px 5px red; */
 }
 
 .curve::after {
@@ -58,9 +58,20 @@
     border-radius: 100% 80%;
     width: 82%;
     height: 100%;
-    background-color: white;
-    background-color: gray;
+    background-color: rgb(229,229,229);
+    /* background-color: white; */
+    /* background-color: gray; */
     transform: translate(-25%, 89%);
     z-index: 1;
-    box-shadow: inset 5px 5px 5px #1c87c9, inset 10px 10px 10px #ccc, inset 15px 15px 15px #8ebf42;
-}*/
+    /* box-shadow: inset 5px 5px 5px #1c87c9, inset 10px 10px 10px #ccc, inset 15px 15px 15px #8ebf42; */
+}
+
+.icons {
+    color: rgb(207, 207, 207);
+    margin: 5px;
+}
+
+/* .iconWrapper {
+    display:flex;
+    justify-content: center;
+} */

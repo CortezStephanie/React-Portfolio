@@ -14,8 +14,9 @@
 #formstuff {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin-left: 200px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #textA {

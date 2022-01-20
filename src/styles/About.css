@@ -36,3 +36,8 @@
     padding: 10px 15px 10px 10px;
     box-shadow: 5px 5px 5px gray;
 }
+
+.wholeContent { 
+    position: relative;
+    z-index: 3;
+} 

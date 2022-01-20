@@ -2,10 +2,12 @@ footer {
     /* position: fixed; */
     bottom: 0;
     display: flex;
-    flex: row;
+    justify-content: center;
     width: 100%;
     contain:content;
     background-color: rgb(28, 28, 87);
+    color: rgb(207, 207, 207);
+
 }
 
 .footerLinks {
