@@ -29,7 +29,7 @@ function Contact () {
 
     }
     return (
-        <div className='Container'>
+        <div className='Container wholeContent'>
             <h1 className="sectionTitle">Contact Me</h1>
             <form id="formstuff">
                 <input placeholder="Full Name" className="inputs"></input>
@@ -40,7 +40,7 @@ function Contact () {
             {errorMessage && (
                 <div>
                     <p className='error-text'>{errorMessage}</p>
-                    </div>
+                </div>
             )}
         </div>
     );  

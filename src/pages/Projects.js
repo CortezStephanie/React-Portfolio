@@ -3,7 +3,7 @@ import '../styles/Projects.css'
 
 export default function Projects ({project}) {
     return(
-        <div>
+        <div className='wholeContent'>
             <li className="card">
                 <h2 className='projectName'>{project.name}</h2>
                 <img src={project.image} alt="project name" className='projectImage'/>

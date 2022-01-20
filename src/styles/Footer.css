@@ -7,10 +7,11 @@ footer {
     contain:content;
     background-color: rgb(28, 28, 87);
     color: rgb(207, 207, 207);
+    margin-top: 20px;
 
 }
 
-.footerLinks {
+.copyRight {
     height: 10vh;
-    margin-top: 10rem;
+    margin-top: 1rem;
 } 

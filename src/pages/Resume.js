@@ -5,7 +5,7 @@ export default function Resume () {
 
     
     return (
-        <div>
+        <div className='wholeContent'>
             <h1 className="sectionTitle">Resume</h1>
             
                 <a href="/images/Resume.pdf" className="resumeLink" target="_blank" rel="noopener"><i className="far fa-file"></i>
