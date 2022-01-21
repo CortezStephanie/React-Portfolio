@@ -4,8 +4,11 @@ import '../styles/Footer.css'
 function Footer() {
     return (
         <>
-          <footer> 
-            <div className='copyRight'>©2021 Stephanie Cortez</div>
+          <footer className='footerContent'> 
+          <ul>
+            <li>©2021 Stephanie Cortez</li>
+            <li>Contact Me: scortez.dev@gmail.com</li>
+          </ul>  
           </footer>
         </>
     )
