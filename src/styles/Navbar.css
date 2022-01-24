@@ -2,10 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: end;
-    /* to have fixed navbar 
-    position: fixed;
-    top: 0;
-    width: 100%;*/
     background-color: rgb(28, 28, 87);
     height: 50px;
 }

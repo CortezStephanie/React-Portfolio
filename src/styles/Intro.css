@@ -73,6 +73,10 @@
     z-index: 1;
 }
 
+@media screen and (max-width: 570px) {
+    .name {margin: 15px;}
+    .picMe {margin: 15px;}
+}
 /* .iconWrapper {
     display:flex;
     justify-content: center;

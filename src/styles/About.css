@@ -39,6 +39,10 @@
     box-shadow: 5px 5px 5px gray;
 }
 
+@media screen and (max-width: 460px) {
+    .aboutContent {width: auto; margin: 0%;}
+}
+
 .wholeContent { 
     position: relative;
     z-index: 3;
