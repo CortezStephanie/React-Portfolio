@@ -11,7 +11,7 @@ export default function Intro () {
                 <a href="https://github.com/CortezStephanie" target="_blank" rel="noreferrer" className='icons'>
                   <i className="fab fa-github"></i>
                 </a>
-                <a href="https://www.linkedin.com/feed/" target="_blank" rel="noreferrer" className='icons'>
+                <a href="https://www.linkedin.com/in/stephanie-cortez-developer/" target="_blank" rel="noreferrer" className='icons'>
                   <i className="fab fa-linkedin"></i>
                 </a>
                 <a href='mailto:scortez.dev.gmail.com' target='_blank' rel='noreferrer' className='icons'>
