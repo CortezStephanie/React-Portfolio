@@ -9,6 +9,7 @@ export default function Projects ({project}) {
                 <img src={project.image} alt="project name" className='projectImage'/>
                 <div className='cardContent'>
                     <p className='projectDescription'>{project.description}</p>
+                    <p className='technologies'>{project.technologies}</p>
                     <a href={project.githubURL} target="_blank" rel="noreferrer" className='cardIcons'>
                     <i className="fab fa-github"></i></a>
                     <a href={project.deploymentURL} target='_blank' rel='noreferrer' className='cardIcons'>

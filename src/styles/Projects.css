@@ -1,8 +1,8 @@
 .card {
     display:flex;
     flex-direction: column;
-    width: 210px;
-    height: 220px;
+    width: 230px;
+    height: 240px;
     /*box-shadow: 5px 5px 5px lightpink;*/
     text-align: center;
     contain:content;
@@ -18,8 +18,8 @@
 }
 
 .card:hover {
-    width: 215px;
-    height: 218px;
+    width: 240px;
+    height: 250px;
 }
 
 .projectDescription {
@@ -42,6 +42,10 @@
 
 .projectName {
     margin: 10px 0 10px 0;
+}
+
+.technologies {
+    margin-bottom: 10px;
 }
 
 .cardIcons {

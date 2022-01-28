@@ -4,6 +4,7 @@
     align-items: end;
     background-color: rgb(28, 28, 87);
     height: 50px;
+    padding-bottom: 4px;
 }
 
 .nav-link {
@@ -11,7 +12,7 @@
     text-decoration: none;
     margin: 0 5px 0 5px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
+    font-size: 25px;
     
 }
 
